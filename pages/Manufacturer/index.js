@@ -23,19 +23,19 @@ export default function Home() {
       </Center>
       <br/><br/>
       <Center fontSize="xl" fontWeight="bold" color="white">
-        <Link href='http://localhost:3000/Manufacturer/formManufacturer' isExternal>
+        <Link href='https://block-check.vercel.app/Manufacturer/formManufacturer' isExternal>
             Manufacturer Registration <ExternalLinkIcon mx='2px' />
         </Link>
       </Center>
       <br/><br/>
       <Center fontSize="xl" fontWeight="bold" color="white">
-        <Link href='http://localhost:3000/Manufacturer/formProduct' isExternal>
+        <Link href='https://block-check.vercel.app/Manufacturer/formProduct' isExternal>
             Product Registration <ExternalLinkIcon mx='2px' />
         </Link>
       </Center>
       <br/><br/>
       <Center fontSize="xl" fontWeight="bold" color="white">
-        <Link href='http://localhost:3000/Manufacturer/transferProduct' isExternal>
+        <Link href='https://block-check.vercel.app/Manufacturer/transferProduct' isExternal>
             Transfer Product <ExternalLinkIcon mx='2px' />
         </Link>
       </Center>
