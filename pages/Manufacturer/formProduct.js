@@ -26,6 +26,7 @@ export default function formProduct() {
     // 
     // let productCode='';
     let productStatus=0;
+    let gg =0;
     const [productCode, setProductCode] = useState("");
     const [brand, setBrand] = useState("");
     const [model, setModel] = useState("");
@@ -34,17 +35,18 @@ export default function formProduct() {
     const [manufactuerLocation, setManufactuerLocation] = useState("");
     const [manufactuerTimestamp, setManufactuerTimestamp] = useState("");
     // const [productStatus, setProductStatus] = useState("");
-
-    
     const [errorMessage, setErrorMessage] = useState("");
     const [loading, setLoading] = useState(false);
     const [displayAlert, setDisplayAlert] = useState('none');
 
+
+    
     const onSubmit = async (event) => {
         event.preventDefault();
         setLoading(true);
         setErrorMessage("");
         const result = null;
+     
         
 
     try {
@@ -97,6 +99,7 @@ export default function formProduct() {
     }
 
   return(
+    
   <div>
     
       <Head>
@@ -155,6 +158,7 @@ export default function formProduct() {
               <Input 
               value={manufactuerLocation}
               onChange={(e) => setManufactuerLocation(e.target.value)}
+              
               />
             </FormControl>
         
@@ -172,14 +176,13 @@ export default function formProduct() {
               <AlertDescription>{errorMessage}</AlertDescription>
             </Alert>
 
-            <Button type="submit" colorScheme='blue' isLoading = {loading}> Submit </Button>
+            <Button type="submit" colorScheme='blue' isLoading = {loading} > Submit </Button>
             <br/><br/><br/><br/>
             <iframe id="ifmcontentstoprint" ></iframe>
-            <div id="qr_code" align="center" ><br/><br/><br/><br/>
-            
+            <div id="qr_code" align="center"  ><br/><br/>
             </div>
             <div>
-              <br/>
+            <br/>
             <Button colorScheme='blue' onClick={onPrint} > Print  QRCode </Button>
             <br/><br/><br/><br/>
             <Trev/>

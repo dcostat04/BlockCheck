@@ -23,23 +23,30 @@ export default function Home() {
       </Center>
       <br/><br/>
       <Center fontSize="xl" fontWeight="bold" color="white">
-        <Link href='https://block-check.vercel.app/Manufacturer/formManufacturer' isExternal>
+        <Link href='http://localhost:3000/Manufacturer/formManufacturer' isExternal>
             Manufacturer Registration <ExternalLinkIcon mx='2px' />
         </Link>
       </Center>
       <br/><br/>
       <Center fontSize="xl" fontWeight="bold" color="white">
-        <Link href='https://block-check.vercel.app/Manufacturer/formProduct' isExternal>
+        <Link href='http://localhost:3000/Manufacturer/formProduct' isExternal>
             Product Registration <ExternalLinkIcon mx='2px' />
         </Link>
       </Center>
       <br/><br/>
+      
       <Center fontSize="xl" fontWeight="bold" color="white">
-        <Link href='https://block-check.vercel.app/Manufacturer/transferProduct' isExternal>
+        <Link href='http://localhost:3000/Manufacturer/transferProduct' isExternal>
             Transfer Product <ExternalLinkIcon mx='2px' />
         </Link>
       </Center>
-      <br/><br/><br/><br/><br/>
+      <br/><br/>
+      <Center fontSize="xl" fontWeight="bold" color="white">
+        <Link href='http://localhost:3000/Manufacturer/productDetails' isExternal>
+            Get Product Details <ExternalLinkIcon mx='2px' />
+        </Link>
+      </Center>
+      <br/><br/>
       <Footer/>
     </div>
   )
