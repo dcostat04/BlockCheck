@@ -137,7 +137,7 @@ export default function productDetails() {
         <Center fontWeight="bold">Description:<Center id="demo3" align="center" fontWeight="bold" ></Center></Center>
         <Center fontWeight="bold">Manufactuer Name:<Center id="demo4" align="center" fontWeight="bold" ></Center></Center>
         <Center fontWeight="bold">Manufactuer Location:<Center id="demo5" align="center" fontWeight="bold" ></Center></Center>
-        <Center fontWeight="bold">Manufactuer Time<Center id="demo6" align="center" fontWeight="bold" ></Center></Center>
+        <Center fontWeight="bold">Manufactuer Time:<Center id="demo6" align="center" fontWeight="bold" ></Center></Center>
         <Center fontWeight="bold" color={"white"}>Description:<Center color={"white"} id="demo2" align="center" fontWeight="bold" ></Center></Center>
     </div>
     <br/><br/><br/>
