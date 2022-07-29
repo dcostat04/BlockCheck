@@ -12,4 +12,3 @@ Edwin Vincent <a href="https://github.com/EDWINcible" target="_blank"><img alt="
 # Frontend bulit on Nextjs and ChakraUI
 # Contract built on Solidity
 # Transactions on MetaMask and rinkeby.etherscan.io
-# hosted on https://block-check.vercel.app/
