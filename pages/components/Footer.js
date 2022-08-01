@@ -9,7 +9,7 @@ export default function Footer() {
           <Link target="_blank" href="https://github.com/dcostat04"> Trevor</Link>
           ,{" "}
           <Link target="_blank" href="https://github.com/EDWINcible"> Edwin</Link>
-          ,{" "}
+          ,{" "}&{" "}
           <Link target="_blank" href="https://github.com/gregbg218">
             Gregory
           </Link>
