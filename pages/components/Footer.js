@@ -12,9 +12,7 @@ export default function Footer() {
           ,{" "}
           <Link target="_blank" href="https://github.com/gregbg218">
             Gregory
-          </Link>{" "}
-          &{" "}
-          <Link target="_blank" href="https://github.com/AaditeeDP"> Aaditee</Link>
+          </Link>
         </Text>
         <Text flex={1} as="a" href={"https://fcrit.ac.in"} color="white" textAlign={["center", "end", "end", "end"]} >
           F.C.R.I.T
