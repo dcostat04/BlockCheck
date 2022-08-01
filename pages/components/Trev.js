@@ -9,12 +9,11 @@ export default function Trev() {
           <Link target="_blank" href="https://github.com/dcostat04"> Trevor</Link>
           ,{" "}
           <Link target="_blank" href="https://github.com/EDWINcible"> Edwin</Link>
-          ,{" "}
+          ,{" "}&{" "}
           <Link target="_blank" href="https://github.com/gregbg218">
             Gregory
           </Link>{" "}
-          &{" "}
-          <Link target="_blank" href="https://github.com/AaditeeDP"> Aaditee</Link>
+          
         </Text>
         <Text flex={1} as="a" href={"https://fcrit.ac.in"} color="white" textAlign={["center", "end", "end", "end"]} >
           F.C.R.I.T
